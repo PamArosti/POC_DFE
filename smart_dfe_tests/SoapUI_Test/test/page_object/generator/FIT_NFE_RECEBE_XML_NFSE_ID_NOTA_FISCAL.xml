@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://server.api.ws.nfe.fitsistemas.com.br/">
+<soapenv:Header/>
+<soapenv:Body>
+<ser:NfeEnviaRecebeDados>
+<nr_licenca>9999</nr_licenca>
+<nm_usuario>9999</nm_usuario>
+<nm_senha>01032007</nm_senha>
+<nm_servico>FIT_NFE_RECEBE_XML_NFSE_ID_NOTA_FISCAL</nm_servico>
+<dados>951952</dados>
+</ser:NfeEnviaRecebeDados>
+</soapenv:Body>
+</soapenv:Envelope>

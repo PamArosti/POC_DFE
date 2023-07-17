@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://server.api.ws.nfe.fitsistemas.com.br/">
+<soapenv:Header/>
+<soapenv:Body>
+<ser:NfeEnviaRecebeDados>
+<nr_licenca>9999</nr_licenca>
+<nm_usuario>9999</nm_usuario>
+<nm_senha>01032007</nm_senha>
+<nm_servico>FIT_NFE_ENVIA_TEXTO_INTEGRACAO_NFE_FIT_VALIDAR</nm_servico>
+<dados><![CDATA[HEADER|4.00
+NFE|33100001000778345|20770566000100|VENDA|0|65|1|778345|25052022102100|||S|1|2|1|3128709|4|1|1||||||0||||||||||||||||||||||||
+NFE-TRANSP|33100001000778345|9||||||||||||||||||||
+NFE-PRODUTO|33100001000778345|1|55|SEM GTIN|NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL|21069090||||5102|UN|10000|119000000000|1190|SEM GTIN|UN|10000|119000000000|000|000|000|000|1|0|00|0|1190|120000|142||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||157|||||||0000000|||||||||||||||||||||||||
+NFE-PRODUTO-PIS|33100001000778345|1|01|1190|16500|019|||||||||||||||||
+NFE-PRODUTO-COFINS|33100001000778345|1|01|1190|76000|090|||||||||||||||||
+NFE-FORMA-PAGAMENTO|33100001000778345|1|01|1190|000||
+NFE-TOTAL|33100001000778345|1190|142|000|000|000|1190|000|000|000|000|000|019|090|000|1190|||||||||||||||||||||||||||||157|000|000|000|||000|000|000|000
+TRAILLER|9]]></dados>
+</ser:NfeEnviaRecebeDados>
+</soapenv:Body>
+</soapenv:Envelope>

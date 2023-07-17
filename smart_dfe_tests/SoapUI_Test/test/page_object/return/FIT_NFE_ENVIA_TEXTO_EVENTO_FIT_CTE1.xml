@@ -1,0 +1,11 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>CTE-RET-INUT|||000|||2|Arquivo de Inutilizacao: Empresa n&#227;o encontrada, confira o CNPJ da empresa no arquivo.46174884000100||||||||||
+</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

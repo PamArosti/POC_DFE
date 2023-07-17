@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>NFE-RET-CONS-SIT|06158643000144|38275|1|55|1|14798413000178|35211106158643000144550010000382751069168853|99990597565|100|Autorizado o uso da NF-e|135210013332420|03122021145751|2|1||||5|N|||30112021080100|0||||||</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

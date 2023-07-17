@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>MDFE-RET-CONS-SIT|06158643000144|205624|38|58|1|35210106158643000144580380002056241020740440|2020202074044|5|100|Autorizado o uso do MDF-e|935210000000844|06012021185956|2|1|</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

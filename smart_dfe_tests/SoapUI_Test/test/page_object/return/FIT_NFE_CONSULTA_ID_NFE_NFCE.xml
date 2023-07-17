@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>NFE-NFCE-RETORNO|24308|06158643000144|12|6294|65|35220506158643000144650120000062941994788436|6|301|Uso Denegado: Irregularidade fiscal do emitente|||13052022142629|aHR0cHM6Ly93d3cuaG9tb2xvZ2FjYW8ubmZjZS5mYXplbmRhLnNwLmdvdi5ici9ORkNlQ29uc3VsdGFQdWJsaWNhL1BhZ2luYXMvQ29uc3VsdGFRUkNvZGUuYXNweD9wPTM1MjIwNTA2MTU4NjQzMDAwMTQ0NjUwMTIwMDAwMDYyOTQxOTk0Nzg4NDM2fDJ8MnwxfDdENDMzQTc2QUUzOTEwN0MxNzRCMDA0MTc0RDhFMDk0QkYzNzEyMEU=|2|13052022142628|N||1||||||||</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

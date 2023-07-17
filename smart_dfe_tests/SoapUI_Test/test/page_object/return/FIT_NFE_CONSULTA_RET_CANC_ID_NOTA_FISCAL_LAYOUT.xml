@@ -1,0 +1,11 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>NFE_RET_</return>
+      <return>NFE-RET-CANC|35144001035776121|35220406158643000144550010357761211960520811|2|135-Evento registrado e vinculado a NF-e(Cancelamento registrado)|135220005610304|22042022141301|06158643000144|1|35776121|956224310481|1|2||5</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

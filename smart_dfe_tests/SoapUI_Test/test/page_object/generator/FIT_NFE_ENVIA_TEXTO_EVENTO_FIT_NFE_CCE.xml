@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://server.api.ws.nfe.fitsistemas.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:NfeEnviaRecebeDados>
+         <nr_licenca>9999</nr_licenca>
+         <nm_usuario>9999</nm_usuario>
+         <nm_senha>01032007</nm_senha>
+         <nm_servico>FIT_NFE_ENVIA_TEXTO_EVENTO_FIT_NFE</nm_servico>
+         <dados><![CDATA[NFE-CANC||35220406158643000144550010357761211960520811|teste de cancelamento para NT|ARQUIVO_INTEGRACAO|||]]></dados>
+      </ser:NfeEnviaRecebeDados>
+   </soapenv:Body>
+</soapenv:Envelope>

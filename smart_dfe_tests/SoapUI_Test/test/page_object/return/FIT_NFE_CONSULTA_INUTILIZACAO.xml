@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>NFE-RET-INUT|06158643000144|2022|001|3577618|3577618|1|Inutiliza&#231;&#227;o de n&#250;mero homologado|135220005610418|22042022142532|ID35220615864300014455001003577618003577618|1||55||102|Inutiliza&#231;&#227;o de n&#250;mero homologado|</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

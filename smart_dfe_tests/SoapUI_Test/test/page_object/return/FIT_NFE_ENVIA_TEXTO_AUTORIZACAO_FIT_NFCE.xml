@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>NFE-NFCE-RETORNO|1563616|06158643000144|001|1563616|65|35220406158643000144650010015636161559723028|2|0|Processando/Transmitindo - Maximo de reenvios atingido (5)||||aHR0cHM6Ly93d3cuaG9tb2xvZ2FjYW8ubmZjZS5mYXplbmRhLnNwLmdvdi5ici9ORkNlQ29uc3VsdGFQdWJsaWNhL1BhZ2luYXMvQ29uc3VsdGFRUkNvZGUuYXNweD9wPTM1MjIwNDA2MTU4NjQzMDAwMTQ0NjUwMDEwMDE1NjM2MTYxNTU5NzIzMDI4fDJ8MnwxfEYzNkYzNDc1RDZDRjBFRDc3RDMxMTMyNDJCMUYwN0NGREU1NDg3MTk=|2|08042022141600|N||1||||||||</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

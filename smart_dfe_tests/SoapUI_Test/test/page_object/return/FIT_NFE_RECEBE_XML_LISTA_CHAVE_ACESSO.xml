@@ -1,0 +1,8 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header/>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosBinResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return/>
+    </ns2:NfeEnviaRecebeDadosBinResponse>
+  </env:Body>
+</env:Envelope>

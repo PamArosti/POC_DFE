@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;NfeImposto&gt;&lt;NumeroLicenca&gt;9999&lt;/NumeroLicenca&gt;&lt;UfOrigem&gt;sp&lt;/UfOrigem&gt;&lt;UfDestino&gt;sp&lt;/UfDestino&gt;&lt;IdProdutoServico&gt;0&lt;/IdProdutoServico&gt;&lt;IdNaturezaOperacao&gt;22&lt;/IdNaturezaOperacao&gt;&lt;VlTotalProduto&gt;850&lt;/VlTotalProduto&gt;&lt;DtProtocoloConsulta&gt;2023-06-28T10:17:35.907&lt;/DtProtocoloConsulta&gt;&lt;NfeImpostoICMS&gt;&lt;CdRetorno&gt;999&lt;/CdRetorno&gt;&lt;DescRetorno&gt;Tributacao Simples com Erro: Tributacao ICMS n&#227;o encontrado para produto/natureza opera&#231;&#227;o/uf origem/destino&lt;/DescRetorno&gt;&lt;/NfeImpostoICMS&gt;&lt;NfeImpostoIPI&gt;&lt;CdRetorno&gt;999&lt;/CdRetorno&gt;&lt;DescRetorno&gt;Tributacao Simples com Erro: Tributacao IPI n&#227;o encontrado para produto/natureza opera&#231;&#227;o&lt;/DescRetorno&gt;&lt;/NfeImpostoIPI&gt;&lt;NfeImpostoPIS&gt;&lt;CdRetorno&gt;999&lt;/CdRetorno&gt;&lt;DescRetorno&gt;Tributacao Simples com Erro: Tributacao PIS n&#227;o encontrado para produto/natureza opera&#231;&#227;o&lt;/DescRetorno&gt;&lt;/NfeImpostoPIS&gt;&lt;NfeImpostoCOFINS&gt;&lt;CdRetorno&gt;999&lt;/CdRetorno&gt;&lt;DescRetorno&gt;Tributacao COFINS com Erro: Tributacao COFINS n&#227;o encontrado para produto/natureza opera&#231;&#227;o&lt;/DescRetorno&gt;&lt;/NfeImpostoCOFINS&gt;&lt;NfeImpostoSimples&gt;&lt;CdRetorno&gt;999&lt;/CdRetorno&gt;&lt;DescRetorno&gt;Tributacao Simples com Erro: Tributacao ICMS n&#227;o encontrado para produto/natureza opera&#231;&#227;o/uf origem/destino&lt;/DescRetorno&gt;&lt;/NfeImpostoSimples&gt;&lt;/NfeImposto&gt;</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

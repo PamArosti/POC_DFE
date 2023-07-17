@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>ALFA SEGURADORA S.A|ALFA SEGURADORA S.A|115550340117|ALAMEDA SANTOS|466|ANDAR 7                         PARTE|CERQUEIRA CESAR|01.418-000|3550308|1058|Habilitado|A SEFAZ n&#227;o fornece a informa&#231;&#227;o|Credenciado|1|4|1|111|Consulta cadastro com uma ocorr&#234;ncia|02713529000188|NORMAL - REGIME PERI&#211;DICO DE APURA&#199;&#195;O|6512000|||||</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

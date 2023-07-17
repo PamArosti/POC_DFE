@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://server.api.ws.nfe.fitsistemas.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:NfeEnviaRecebeDados>
+         <nr_licenca>9999</nr_licenca>
+         <nm_usuario>9999</nm_usuario>
+         <nm_senha>01032007</nm_senha>
+         <nm_servico>FIT_NFE_ENVIA_TEXTO_INTEGRACAO_NFSE_FIT_VALIDAR</nm_servico>
+         <dados><![CDATA[HEADER|1.00
+NFSE-RPS|778|11669055000962|778|E|1|08/06/202200:00:00|1||N|N||||||92754738001304|LOJAS RENNER SA|LOJAS RENNER SA|AV JOAQUIM PORTO VILLANOVA|401||JARDIM CARVALHO|4314902|91410400|1058||0960372202|||||||||||||||||23408324|0||||||
+NFSE-RPS-SERVICO|778|14.01|4329199|14.01.b|14.01 -  Essa nota fiscal foi emitida conforme aceite do responsável e/ou contrato entre as partes e possui uma duplicata de mesmo número;-NAO RETER INSS - CONF. ART. 117 e 119 DA IN No 971/2009 (NAO HA CESSAO DE MAO-DE-OBRA) - NAO RETER IRRF - EXCECAO DO ITEM XVII DO PARAG. 1 DO ART. 714 DO RIR. - PARCELA 05/12 CORRESPONDENTE A PRESTACAO DE SERVICO DE SUPERVISAO E MANUTENCAO - PERIODO  01/12/2021 A  31/12/2021 - CONFORME ADITIVO AO CONTRATO N 10384 - PEDIDO: 2387301- INFORMACAO BANCARIA BANCO DO BRASIL S.A 001 AG. 4209-9 C/C: 12176.2- VENCIMENTO: 18-02-2022|3513801|1|2295434|10000|
+NFSE-RPS-TOTAL|778|2295434|000|14920|68863|000|22954|N|000|000|2295434|20000|45909|2188697|000|000|000|2||
+TRAILLER|5]]></dados>
+      </ser:NfeEnviaRecebeDados>
+   </soapenv:Body>
+</soapenv:Envelope>

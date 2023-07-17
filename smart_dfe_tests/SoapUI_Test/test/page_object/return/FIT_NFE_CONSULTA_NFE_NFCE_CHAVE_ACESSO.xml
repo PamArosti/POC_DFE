@@ -1,0 +1,10 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>NFE-NFCE-RETORNO|23569|06158643000144|12|6061|65|35220206158643000144650120000060611388729276|5|100|Autorizado o uso da NF-e||135220000056032|24022022095056|aHR0cHM6Ly93d3cuaG9tb2xvZ2FjYW8ubmZjZS5mYXplbmRhLnNwLmdvdi5ici9ORkNlQ29uc3VsdGFQdWJsaWNhL1BhZ2luYXMvQ29uc3VsdGFRUkNvZGUuYXNweD9wPTM1MjIwMjA2MTU4NjQzMDAwMTQ0NjUwMTIwMDAwMDYwNjExMzg4NzI5Mjc2fDJ8MnwxfDc2MDI1N0Q2QzI3MDkxQUE3OTIyMTZGNzRCQjQ1N0JGNTYyMURCQTU=|2|24022022095054|N||1||||||||</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://server.api.ws.nfe.fitsistemas.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:NfeEnviaRecebeDados>
+         <nr_licenca>8202_METALSYSTEM</nr_licenca>
+         <nm_usuario>8202_METALSYSTEM</nm_usuario>
+         <nm_senha>01032007</nm_senha>
+         <nm_servico>FIT_NFE_LISTA_CTE_PROPRIAS_TERCEIROS_NSU</nm_servico>
+         <dados>01012023|30042023|00001|0|1</dados>
+      </ser:NfeEnviaRecebeDados>
+   </soapenv:Body>
+</soapenv:Envelope>

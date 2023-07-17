@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://server.api.ws.nfe.fitsistemas.com.br/">
+<soapenv:Header/>
+<soapenv:Body>
+<ser:NfeEnviaRecebeDados>
+<nr_licenca>9999</nr_licenca>
+<nm_usuario>9999</nm_usuario>
+<nm_senha>01032007</nm_senha>
+<nm_servico>FIT_NFE_LISTA_CHAVE_ACESSO_TERCEIROS_PERIODO_DT_RECEBIMENTO</nm_servico>
+<dados>00001|01012022|01022022|55|</dados>
+</ser:NfeEnviaRecebeDados>
+</soapenv:Body>
+</soapenv:Envelope>

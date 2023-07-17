@@ -1,0 +1,16 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Header>
+    <ns1:token xmlns:ns1="http://server.api.ws.nfe.fitsistemas.com.br/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="1"/>
+  </env:Header>
+  <env:Body>
+    <ns2:NfeEnviaRecebeDadosResponse xmlns:ns2="http://server.api.ws.nfe.fitsistemas.com.br/">
+      <return>NOTA FISCAL|1|</return>
+      <return>A|2.00|NFe35220506158643000144550010000392041712305010|</return>
+      <return>B|35|71230501|OUTRA SAIDA DE MERCADORIA OU PRESTACAO DE SERVICO||55|1|39204|2022-05-03|||1|3503208|1|1|0|2|1|FIT DF-e 5.0.001|||</return>
+      <return>C|JOSE FERREIRA GANDRA DE CARVALHO - ME|FIT SISTEMAS-SP ME|956224310481||36561681|6202300|3|</return>
+      <return>C02|06158643000144|</return>
+      <return>C05|AVENIDA PROFESSOR ALFONSO BOVERO|1057|CJ. 37|VILA POMPEIA|3550308|SAO PAULO|SP|08021-120|1058|BRASIL|113586-7393|</return>
+      <return>Erro n&#227;o catalogado - Msg: null</return>
+    </ns2:NfeEnviaRecebeDadosResponse>
+  </env:Body>
+</env:Envelope>
